@@ -1,0 +1,57 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Meeting a freind",
+      "day": "may 9th at 10:30 AM",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Go for shopping",
+      "day": "may 9th at 04:00 PM",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Go to university",
+      "day": "may 9th at 08:00 AM",
+      "reminder": true
+    },
+    {
+      "text": "playing football",
+      "day": "may 12th at 11:00 am",
+      "reminder": true,
+      "id": 5
+    },
+    {
+      "text": "jjjj",
+      "day": "jjjj",
+      "reminder": false,
+      "id": 6
+    },
+    {
+      "text": "hhh",
+      "day": "jjj",
+      "reminder": false,
+      "id": 7
+    }
+  ]
+}
