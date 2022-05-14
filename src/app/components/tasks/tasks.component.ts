@@ -30,7 +30,7 @@ toggleReminder(task : Task){
 }
 
 addTask(task:Task){
-  task.reminder = !task.reminder;
+  //task.reminder = !task.reminder; this is konti dayra copy mene toggleReminder
   this.taskService.addTask(task).subscribe( (task)=> (this.tasks.push(task)));
 }
 }
